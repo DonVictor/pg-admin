@@ -1,0 +1,1 @@
+npm start --prefix /home/donvictor/Developer/electron/pg-admin
