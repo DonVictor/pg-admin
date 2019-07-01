@@ -1,20 +1,25 @@
 {
-  "name": "electron-quick-start",
+  "name": "mat-pg-admin",
+  "productName": "mat-pg-admin",
+  "icon": "img/elephant.png",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A simple PG Admin 4 application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "mackager": "electron-packager . 'MAT PG Admin' --overwrite --platform=darwin --arch=x64 --out=builds --prune=true --icon=/Users/vpalma/Developers/pg-admin/img/pgAdmin4.icns --icns=/Users/vpalma/Developers/pg-admin/img/pgAdmin4.icns",
+    "lackager": "electron-packager . 'MAT PG Admin' --overwrite --platform=linux  --arch=x64 --out=builds --prune=true --icon=/Users/vpalma/Developers/pg-admin/img/elephant.png  --icns=/Users/vpalma/Developers/pg-admin/img/elephant.png",
+    "wackager": "electron-packager . 'MAT PG Admin' --overwrite --platform=win32  --arch=x64 --out=builds --prune=true --icon=/Users/vpalma/Developers/pg-admin/img/elephant.png  --icns=/Users/vpalma/Developers/pg-admin/img/elephant.png"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
-    "demo"
+    "MAT",
+    "plsql"
   ],
-  "author": "GitHub",
+  "author": "DonVictor",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^4.2.2",
